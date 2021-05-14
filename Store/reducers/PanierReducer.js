@@ -2,7 +2,7 @@ const initialeState = {panier:[],commande:[]}
 
 export default function remplirPanier(state=initialeState,action){
     let nextState
-    const articleIndex = state.panier.findIndex(item => item.id === action.value.id)
+    const articleIndex = state.panier.findIndex(item => item.produit.id === action.value.id)
     switch (action.type) {
         case "Ajouter":
             //ajout dans le panier
@@ -14,10 +14,10 @@ export default function remplirPanier(state=initialeState,action){
                 }
             }
             else{
-                action.value.qt = action.quantité
-                action.value.sousTotal = action.quantité*action.value.prix 
+                //action.value.qt = action.quantité
+                //action.value.sousTotal = action.quantité*action.value.prix 
                 nextState = {
-                    panier:[ ...state.panier,action.value],
+                    panier:[ ...state.panier,{"produit":action.value,"qt":action.quantité,"sousTotal":action.quantité*action.value.prix}],
                     commande:[...state.commande]
                 }
             }

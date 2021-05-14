@@ -10,10 +10,10 @@ export default function Articles(props){
                 <Text style={styles.text}>{props.achat.nom}</Text>
             </View>
             <View style={[styles.container,{backgroundColor:"red"}]}>
-                <Text style={styles.text}>{props.achat.qt}</Text>
+                <Text style={styles.text}>{props.qt}</Text>
             </View>
             <View style={[styles.container,{backgroundColor:"pink",flex:2}]}>
-                <Text style={styles.text}>Ar {props.achat.sousTotal}</Text>
+                <Text style={styles.text}>Ar {props.sousTotal}</Text>
             </View>
             <TouchableOpacity 
                 style={[{flex:1,backgroundColor:"black"}]} 

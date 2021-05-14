@@ -13,9 +13,9 @@ class  DetailCommandes extends React.Component{
                 <FlatList
                     data={this.props.route.params.commande.arona}
                     renderItem={({ item }) => (
-                        <Articles achat= {item} navigation={this.props} desactive={true}/>
+                        <Articles achat= {item.produit} qt={item.qt} sousTotal={item.sousTotal} navigation={this.props} desactive={true}/>
                         )}
-                    keyExtractor={item => item.id}
+                    keyExtractor={item => item.produit.id}
                 />  
                 <Text style={style.text}>
                     Total : AR {this.props.route.params.commande.total}

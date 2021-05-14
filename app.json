@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Reservation",
-    "slug": "Reservation",
+    "name": "E-commerce",
+    "slug": "e-commerce",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }

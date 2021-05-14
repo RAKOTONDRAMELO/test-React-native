@@ -1,0 +1,76 @@
+{
+    "users":
+    [
+        {
+            "username":"admin",
+            "password":"admin"
+        },
+        {
+            "username":"user",
+            "password":"user"
+        }
+    ], 
+    "produits":
+    [
+        {
+            "id":"0",
+            "nom":"Vodka",
+            "description":"La vodka peut être issue de la transformation de quantités de produits agricoles. Elle est traditionnellement produite à partir de céréales (seigle, blé) et de pommes de terre2, mais d'autres produits agricoles peuvent être utilisés1, parmi eux, les betteraves (mélasse) et les fruits (pommes, prunes).Elle est devenue l'alcool national de nombreux pays (Russie, Pologne, Ukraine, Finlande, etc.). Aujourd'hui, on fabrique de la vodka dans de nombreux pays, à la fois dans les pays traditionnellement fabricants, mais aussi dans la plupart des pays consommateurs d'alcool. Il existe aussi une vodka de contrebande appelée communément Samogon en polonais et самого́н en russe (ce qui signifie littéralement « produit fait maison »).",
+            "prix":"5000.00"
+        },
+        {
+            "id":"1",
+            "nom":"Rhum Blanc",
+            "description":"Le rhum (anglais : rum, espagnol : ron) est une eau-de-vie originaire des Amériques, produite soit par distillation de sous-produits fermentés de l'industrie sucrière ou mélasse : le rhum industriel ou traditionnel, soit à partir du jus de canne à sucre fermenté : le rhum agricole. Il est consommé blanc, vieilli en fût (rhum vieux) ou épicé; il prend alors une coloration ambrée plus ou moins foncée.",
+            "prix":"6000.00"
+        },
+        {
+            "id":"2",
+            "nom":"Rhum Noire",
+            "description":"Le rhum (anglais : rum, espagnol : ron) est une eau-de-vie originaire des Amériques, produite soit par distillation de sous-produits fermentés de l'industrie sucrière ou mélasse : le rhum industriel ou traditionnel, soit à partir du jus de canne à sucre fermenté : le rhum agricole. Il est consommé blanc, vieilli en fût (rhum vieux) ou épicé; il prend alors une coloration ambrée plus ou moins foncée.",
+            "prix":"7000.00"
+        },
+        {
+            "id":"3",
+            "nom":"Vin Rouge",
+            "description":"Le vin est une boisson alcoolisée obtenue par la fermentation du raisin, fruit de la vigne viticole.La transformation du raisin en vin est appelée la vinification. L'étude du vin est l'œnologie. La grande variété de vins existant au monde s'explique par les différences de terroirs, de cépages, de modes de vinification ou de types d'élevage. Ainsi ils peuvent donner des vins rouges, rosés ou blancs, mais aussi des vins avec un taux de sucre résiduel variant (secs ou doux), ou une effervescence variante (tranquilles ou effervescents). La viticulture a colonisé une vaste partie du monde et de très nombreux pays sont producteurs de vin.",
+            "prix":"12000.00"
+        },
+        {
+            "id":"4",
+            "nom":"Vin Blanc",
+            "description":"Le vin est une boisson alcoolisée obtenue par la fermentation du raisin, fruit de la vigne viticole.La transformation du raisin en vin est appelée la vinification. L'étude du vin est l'œnologie. La grande variété de vins existant au monde s'explique par les différences de terroirs, de cépages, de modes de vinification ou de types d'élevage. Ainsi ils peuvent donner des vins rouges, rosés ou blancs, mais aussi des vins avec un taux de sucre résiduel variant (secs ou doux), ou une effervescence variante (tranquilles ou effervescents). La viticulture a colonisé une vaste partie du monde et de très nombreux pays sont producteurs de vin.",
+            "prix":"12000.00"
+        },
+        {
+            "id":"5",
+            "nom":"Coca Cola",
+            "description":"Coca-Cola, parfois abrégé Coca ou Cola dans les pays francophones ou Coke en Amérique du Nord et dans certains pays européens et africains, est une marque nord américaine de soda de type cola fabriquée par The Coca-Cola Company. Cette marque a été déposée en 1886. Ce nom provient de deux ingrédients utilisés pour sa composition originelle : la feuille de coca et la noix de kola.",
+            "prix":"5000.00"
+        },
+        {
+            "id":"6",
+            "nom":"Whisky",
+            "description":"Whisky ou whiskey est le nom générique d'un ensemble d'eaux-de-vie fabriquées par distillation de céréales maltées ou non maltées. L'origine du whisky est encore aujourd'hui sujette à controverses entre Écossais et Irlandais, chacun y allant de sa preuve la plus ancienne. Par la suite, le whisky a été exporté vers le Nouveau Monde (notamment aux États-Unis et au Canada). Depuis le début du xxe siècle, des distilleries se sont développées au Japon, puis dans le reste du monde plus récemment.",
+            "prix":"100000.00"
+        },
+        {
+            "id":"7",
+            "nom":"Rhum Arrangé",
+            "description":"Le rhum arrangé est une préparation de rhum dans laquelle ont macéré divers ingrédients tels que des feuilles, des fruits, des graines, des écorces ou des friandises. C'est une boisson emblématique à La Réunion mais commune aussi aux Antilles et à Madagascar.À l'origine, il se boit plutôt en digestif puisqu'on ne lui rajoute pas ou peu de sucre à la différence du punch. Cependant, il peut être adouci avec du sirop de sucre de canne pour être bu en apéritif.Le goût et la saveur du rhum arrangé résultent d'une macération longue des ingrédients, au minimum de un à six mois. Il existe des recettes classiques, mais de nombreuses déclinaisons sont possibles selon les envies, les traditions",
+            "prix":"15000.00"
+        },
+        {
+            "id":"8",
+            "nom":"Eau Minéral",
+            "description":"L'eau minérale naturelle est une catégorie d'eau dont les caractéristiques sont définies réglementairement. Obligatoirement d'origine souterraine (qu'on la capte via un forage ou qu'elle jaillisse d'une source), elle doit avoir une composition chimique stable et ne pas avoir besoin d'être désinfectée pour être consommée. Elle peut cependant recevoir des traitements visant à la débarrasser de certains composés toxiques ou non souhaitables (comme les sulfures d'hydrogène)1. En France, l'exploitation et le conditionnement d'une source d'eau minérale nécessitent des autorisations administratives spécifiques.",
+            "prix":"4000.00"
+        },
+        {
+            "id":"9",
+            "nom":"Cocktail",
+            "description":"Un cocktail, aussi parfois orthographié coquetel au Canada, est un mélange de boissons et d’éléments aromatiques et décoratifs en quantité variable. Ils contiennent souvent de l'alcool, mais de très nombreuses recettes en sont dépourvues.Quand le mélange d'un cocktail est préparé et conditionné dans un but commercial hors consommation immédiate, il peut être soumis à une réglementation. On parlera alors de prémix. Les mistelles non plus ne sont pas des cocktails.",
+            "prix":"15000.00"
+        }
+    ]
+}

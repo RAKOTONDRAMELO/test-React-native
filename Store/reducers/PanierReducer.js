@@ -8,6 +8,7 @@ export default function remplirPanier(state=initialeState,action){
             //ajout dans le panier
             if (articleIndex !== -1){
                 state.panier[articleIndex].qt = action.quantité
+		state.panier[articleIndex].sousTotal = action.quantité*action.value.prix
                 nextState = {
                     panier:[ ...state.panier],
                     commande:[...state.commande]

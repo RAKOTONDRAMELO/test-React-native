@@ -1,4 +1,4 @@
-
+var images;
 export default images = [
     require('../assets/image/0.png'),
     require('../assets/image/1.png'),

@@ -11,7 +11,7 @@ export default class App extends React.Component{
       <Provider store={Store}>
         <NavigationContainer>
           <StackID />
-          <StatusBar backgroundColor="black" />
+          <StatusBar backgroundColor="white" />
         </NavigationContainer>
       </Provider>
     );
